@@ -20,7 +20,7 @@ Foi desenvolvida uma API REST para cadastro de Contatos
 - Necessário SDK .NET 6.0 
 ##
 - dotnet tool install --global dotnet-ef
-- Alterar o arquivo "appsettings.Development", adicionando os dados do seu banco Local (Necessário ser SQL Server, recomendo usar autenticação por usuário, caso use autenticação pelo windows, necessário alterar os dados da conexão)
+- Alterar o arquivo "appsettings.Development", adicionando os dados do seu banco Local (Necessário ser SQL Server, recomendo usar autenticação por usuário do SQL, caso use autenticação pelo windows, necessário alterar os dados da conexão)
 - dotnet ef migrations add AdicionarContatoAgenda 
 - dotnet ef database update
 - dotnet run
